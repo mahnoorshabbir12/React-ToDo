@@ -24,16 +24,17 @@ A minimal and elegant To-Do List application built using **React**, **Context AP
 
 src/
 ├── components/
-│ ├── ToDoForm.jsx # Form for adding new tasks
-│ └── ToDoItem.jsx # Individual task item
+│   ├── ToDoForm.jsx       # Form for adding new tasks
+│   └── ToDoItem.jsx       # Individual task item
 │
 ├── context/
-│ ├── Index.js # Context provider wrapper
-│ └── ToDoContext.js # useReducer + context logic
+│   ├── Index.js           # Context provider wrapper
+│   └── ToDoContext.js     # useReducer + context logic
 │
-├── App.jsx # Main app component
-├── main.jsx # Entry point
-└── index.css # Global styles
+├── App.jsx                # Main app component
+├── main.jsx               # Entry point
+└── index.css              # Global styles
+
 
 ---
 
